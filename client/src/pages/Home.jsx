@@ -88,7 +88,7 @@ const Home = () => {
                 Download the App
               </button>
               <button className="hidden md:flex items-center justify-center w-[26rem] text-white text-xl font-medium h-28 bg-[#002343] hover:bg-[#7480ee] rounded-full">
-                Get Started
+                <a href="/signup">Get Started</a>
               </button>
             </div>
           </div>

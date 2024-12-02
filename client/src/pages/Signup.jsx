@@ -10,9 +10,8 @@ import React, { useState } from "react";
 
 const Signup = () => {
   return (
-    <div>
-      {" "}
-      <div className="login  flex mx-auto justify-center p-14 w-lvh">
+    <div className="bg-[#002446]">
+      <div className="login  flex mx-auto justify-center bg-white p-14 w-lvh">
         {/* left section */}
         <div className="flex flex-col w-7/12 justify-between items-center xl:items-start">
           {/* cardtonic logo */}
@@ -226,17 +225,17 @@ const Signup = () => {
               />
             </form>
           </div>
-          {/* Button & Create Account */}
-          <div className="mt-10 flex flex-col w-7/12 ml-10 gap-6 items-center text-lg">
-            <p>
-              Not yet a user?{" "}
-              <a href="" className="font-medium underline">
-                Create Account
+          {/* Button & Login*/}
+          <div className="mt-10 flex flex-col w-8/12 ml-10 gap-6 items-center text-lg">
+            <button className="bg-[#004481] text-white p-4 rounded-full w-full text-lg font-medium">
+              Create Account
+            </button>
+            <p className="font-light">
+              Have an Account?{" "}
+              <a href="" className="font-normal underline">
+                Login Now
               </a>
             </p>
-            <button className="bg-[#8b8b8b] text-white p-4 rounded-full w-full text-lg font-medium">
-              Submit
-            </button>
           </div>
         </div>
 
